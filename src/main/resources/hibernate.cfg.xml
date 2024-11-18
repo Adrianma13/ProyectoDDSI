@@ -7,7 +7,7 @@
 <property name="hibernate.connection.url">jdbc:mariadb://172.18.1.241:3306/DDSI_040</property>
 <property name="hibernate.connection.username">DDSI_040</property>
 <property name="hibernate.connection.password">lloremos9</property>
-<property name="hibernate. show_sql">true</property>
+<property name="hibernate.show_sql">true</property>
 <mapping class="Modelo.Monitor"/>
 <mapping class="Modelo.Actividad"/>
 <mapping class="Modelo.Socio"/>
