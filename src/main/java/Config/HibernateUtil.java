@@ -23,8 +23,8 @@ public class HibernateUtil {
         try {
             StandardServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
                     .configure("hibernate.cfg.xml")
-                    .applySetting("hibernate.connection.username", ControladorConexion.user)
-                    .applySetting("hibernate.connection.password", ControladorConexion.pass).build();
+                    .applySetting("hibernate.connection.username", "DDSI_040")
+                    .applySetting("hibernate.connection.password", "lloremos9").build();
             Metadata metadata = new MetadataSources(serviceRegistry).getMetadataBuilder().build();
             return metadata.getSessionFactoryBuilder().build();
         } catch (Throwable ex) {

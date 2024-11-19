@@ -10,7 +10,7 @@ package Controlador;
  */
 public class ControladorConexion {
 
-    public static Object user;
-    public static Object pass;
+    public static String user="DDSI_040";
+    public static Object pass="lloremos9";
     
 }
